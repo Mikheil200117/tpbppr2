@@ -40,3 +40,4 @@ jobs:
         with:
           folder: .github/workflows/docs/build
           branch: gh-pages
+          github_token: ${{ secrets.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 }}
