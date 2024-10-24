@@ -16,4 +16,4 @@ jobs:
       - name: Install dependencies
         run: pip install -r .github/workflows/requirements.txt
       - name: Run tests
-        run: python .github/workflows/Test
+        run: python .github/workflows/Test.py
