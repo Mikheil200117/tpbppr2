@@ -22,5 +22,4 @@ jobs:
         run: |
           git config --global user.email "focus9ka1@mail.ru"
           git config --global user.name "Mae-lv"
-          git checkout development
           git merge $GITHUB_HEAD_REF
