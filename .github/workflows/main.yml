@@ -2,7 +2,7 @@ name: CI
 
 on: 
   push: 
-    branches: [ "main", "development" ] # Запуск при пуше в ветки "main" и "development"
+    branches: [ "*" ] # Запуск при пуше в ветки "main" и "development"
 
 jobs:
   build:
