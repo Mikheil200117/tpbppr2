@@ -23,3 +23,21 @@ jobs:
           git config --global user.email "focus9ka1@mail.ru"
           git config --global user.name "Mae-lv"
           git merge $GITHUB_HEAD_REF
+      - name: install wheel
+        run: pip install wheel
+      - name: Build the project
+        run: python .github/workflows/setup.py sdist bdist_wheel
+      - name: install sphinx
+        run: pip install sphinx
+      - name: install mkdocs
+        run: pip install mkdocs mkdocs-material
+      - name: Generate documentation
+        run: |
+          sphinx-build -b html .github/workflows/docs/source .github/workflows/docs/build
+  
+      - name: Deploy documentation
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: .github/workflows/docs/build
+          branch: gh-pages
+          github_token: ${{ secrets.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 }}
