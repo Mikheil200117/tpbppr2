@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'tpbppr2'
-copyright = '2024, Tamaz'
-author = 'Tamaz'
+project = 'calculator2'
+copyright = '2024, MishaP'
+author = 'MishaP'
 release = '1.0.0'
 
 # -- General configuration ---------------------------------------------------
