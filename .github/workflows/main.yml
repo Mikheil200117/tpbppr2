@@ -2,7 +2,10 @@ name: CI
 
 on: 
   push: 
-    branches: [ "*" ] 
+    branches:
+      - release
+      - main
+      - development
 jobs:
   build:
     runs-on: ubuntu-latest
