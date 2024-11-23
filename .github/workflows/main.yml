@@ -20,8 +20,8 @@ jobs:
       - name: Merge PR (if successful) 
         if: ${{ success() }}  # Слияние только если тесты прошли успешно
         run: |
-          git config --global user.email "focus9ka1@mail.ru"
-          git config --global user.name "Mae-lv"
+          git config --global user.email "mprudkovskiy@gmail.com"
+          git config --global user.name "Mikheil200117"
           git merge $GITHUB_HEAD_REF
       - name: install wheel
         run: pip install wheel
@@ -40,4 +40,4 @@ jobs:
         with:
           folder: .github/workflows/docs/build
           branch: gh-pages
-          github_token: ${{ secrets.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 }}
+          github_token: ${{ secrets.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 }}
