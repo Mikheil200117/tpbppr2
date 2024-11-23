@@ -1,9 +1,9 @@
-.. tpbppr2 documentation master file, created by
+.. calculator2 documentation master file, created by
    sphinx-quickstart on Fri Oct 25 01:42:30 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-tpbppr2 documentation
+calculator2 documentation
 =====================
 
 Add your content using ``reStructuredText`` syntax. See the
